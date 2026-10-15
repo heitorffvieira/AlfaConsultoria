@@ -1,7 +1,7 @@
 // Ajuste aqui os dados de contato e os textos principais.
 export const CONTACT = {
-  whatsapp: '5579999999999', // DDI + DDD + número, só dígitos
-  email: 'contato@alfaconsultoria.com.br',
+  whatsapp: '5579999855459', // DDI + DDD + número, só dígitos
+  email: 'alfa.consult28@gmail.com',
   message: 'Olá! Gostaria de conversar com a Alfa Consultoria.',
 }
 export const whatsappUrl = `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIComponent(CONTACT.message)}`

@@ -171,7 +171,7 @@ export function Footer() {
         <div><h4>Contato</h4><a href={whatsappUrl} target="_blank" rel="noreferrer">WhatsApp</a><a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a></div>
       </div>
       <div className="container footer__bottom">
-        <span>© {new Date().getFullYear()} Alfa Consultoria. Todos os direitos reservados.</span>
+        <span>© {new Date().getFullYear()} Alfa Consultoria. Todos os direitos reservados.         <span>Desenvolvido por <a href="https://www.instagram.com/crystallcode/" target="_blank" rel="noreferrer">Crystal Code</a>.</span></span>
         <span>Consultoria em educação.</span>
       </div>
     </footer>
